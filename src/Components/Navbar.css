@@ -1,0 +1,38 @@
+li{
+  list-style: none;
+  padding: .5rem 0 ;
+  margin: 0 .6rem;
+  cursor: pointer;
+  color: gray;
+  font-weight: 500;
+  transition: all .5s ease;
+}
+li:hover{
+  color: coral;
+}
+.navbar{
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem ;
+  margin-right: 3rem;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logo__image{
+  width: 40%;
+}
+
+.navbar__left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navigations__links{
+  display: flex;
+
+}
